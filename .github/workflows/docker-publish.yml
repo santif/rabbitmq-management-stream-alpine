@@ -16,6 +16,7 @@ on:
     branches: [ "main" ]
 
 env:
+  REGISTRY: docker.io
   IMAGE_NAME: santif/rabbitmq-management-stream-alpine
 
 
